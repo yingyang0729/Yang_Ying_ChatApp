@@ -1,24 +1,26 @@
 {
   "name": "yang_ying_chatapp",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "chat app",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.6.0",
+    "vue-router": "^4.1.6"
+  },
   "main": "app.js",
   "scripts": {
+    "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yingyang0729/Yang_Ying_Chatapp.git"
+    "url": "git+https://github.com/crisgdn/cristine_chatapp.git"
   },
-  "author": "yy",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yingyang0729/Yang_Ying_Chatapp/issues"
+    "url": "https://github.com/crisgdn/cristine_chatapp/issues"
   },
-  "homepage": "https://github.com/yingyang0729/Yang_Ying_Chatapp#readme",
-  "dependencies": {
-    "express": "^4.18.2",
-    "socket.io": "^4.6.0",
-    "socket.io-client": "^4.6.0"
-  }
+  "homepage": "https://github.com/crisgdn/cristine_chatapp#readme"
 }

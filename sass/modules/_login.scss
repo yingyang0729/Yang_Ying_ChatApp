@@ -1,0 +1,117 @@
+/* -----------------login---------------*/
+
+.login-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    
+}
+
+body {
+    background: url("../images/background_flower.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+}
+
+.login-container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 15px;
+    width: 100%;
+    height: 470px;
+    background: #122339;
+    border-radius: 8px; 
+}
+
+.form-login {
+    width: 300px;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+#username { 
+    background: #F8F8F8;
+    height: 40px;
+    border: 1px solid #4b5767;
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: 300;
+    color: #333;
+    border-radius: 10px;
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px;
+    gap: 5px;
+    width: 77px;
+    height: 37px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    background: #122339;
+    color:#fff;
+    border-radius: 4px;
+}
+
+/* --- Small devices (landscape phones, 576px and up)--*/
+@media (max-width: 575.98px) { 
+    
+    .login-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+    }
+
+
+    .login-container { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        gap: 15px;
+        width: 95%;
+        height: 370px;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 8px; 
+    }
+    
+    .form-login {
+        width: 95%;
+        border-top: solid 1px #122339;
+        border-bottom: solid 1px #122339;
+        margin-bottom: 10px;
+        padding-bottom: 15px;
+    }
+    
+    #username { 
+        background: #F8F8F8;
+        height: 40px;
+        border: 1px solid #4b5767;
+        width: 150px;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-weight: 300;
+        color: #292d33;
+        border-radius: 10px;
+    
+    }
+    
+
+}
