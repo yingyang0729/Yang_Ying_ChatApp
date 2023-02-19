@@ -1,0 +1,13 @@
+body { background-color: black; color: white; }
+
+label { display: block; margin-top: 20px }
+
+input[type="submit"] { display: block; margin-top: 20px }
+
+nav a { 
+    text-transform: none; 
+    color: white;
+    margin-right: 1em;
+}
+
+footer { margin-top: 3em; }
