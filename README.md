@@ -18,7 +18,7 @@ The contributor is Ying Yang.
 
 1. Clone the repository to your local machine:
 ```
-git clone https://github.com/your-username/live-chat-app.git
+git clone 
 ```
 
 2. Install the dependencies:
