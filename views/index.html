@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/css/main.css'/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Chat</title>
+</head>
+<body>
+    <main id="app">
+<!-- -------------------start page--------------------------------- -->
+      <article class="startArea" v-if="openlogin">
+        <section>
+          <div class="startContainer">
+            <h2>Welcome</h2>
+            <h3>Enjoy your time</h3>
+            <form>
+              <div class="startForm">
+                <label for="username">Your Name</label>
+                <input id="username" v-model="username" type="text" placeholder="username">
+                
+              </div>
+              <!-- close login -->
+              <button @click="showChat">Start</button>
+                       
+            </form>
+          </div>
+        </section>
+      </article>
+
+<!-- -------------------chat page--------------------------------- -->
+
+
+      <div class="chat" v-if="openchat">
+       <header>
+            <i class='fas fa-user-edit' style='font-size:36px'></i>
+          
+            <h1> Howdy! {{ username }}</h1>
+            <!-- show login -->
+            <button @click="showChat">Leave</button>
+       </header>
+       <article class="divide">
+          <section class="inforContainer">
+              <h3>Your Name</h3>
+              <input id="nickname" v-model="nickname" type="text" placeholder="Nickname?">
+          <form>
+              <label for="message">Your Message</label>
+              <textarea @focus="catchTextFocus" v-model="message" id="textarea" class="message" autocomplete="off"></textarea>
+              <button @click.prevent="dispatchMessage" type="submit" value="Chat">Chat</button>
+          </form>
+          </section>
+
+          <section class="messages">
+              <ul id="messages">
+                  <!-- render a new message component for every message -->
+                  <newmsg v-for="message in messages" :message="message"></newmsg>
+              </ul>
+          </section>
+      </article> 
+    </div>
+    </main>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/main.js" type="module" defer></script>
+    
+</body>
+</html>

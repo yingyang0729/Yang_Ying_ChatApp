@@ -1,0 +1,88 @@
+
+@media (max-width: 575.98px){
+    .divide { 
+        display: flex; 
+        flex-direction: column;
+        margin: 0px 20px 20px 20px;
+        padding: 40px;
+        //background: no-repeat url("../images/background_flower.jpg");
+        height: 800px;
+    }
+
+    #nickname { 
+        background: #F8F8F8;
+        height: 40px;
+        border: 1px solid #fefefe;
+        width: 400px;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-weight: 300;
+        color: #333;
+        border-radius: 5px;
+    }
+
+    
+    textarea { 
+        height: 100px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 12px;
+        gap: 8px;
+        width: 150%;
+        background: #fff;
+        border: 1px solid #DEE3EB;
+        color: #333;
+        border-radius: 2px;
+     }
+
+
+    
+    .startArea {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+    }
+
+
+    .startContainer { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        gap: 15px;
+        width: 95%;
+        height: 370px;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 4px; 
+    }
+    
+    .startForm {
+        width: 95%;
+        border-top: solid 1px #122339;
+        border-bottom: solid 1px #122339;
+        margin-bottom: 10px;
+        padding-bottom: 15px;
+    }
+    
+    #username { 
+        background: #F8F8F8;
+        height: 40px;
+        border: 1px solid #4b5767;
+        width: 150px;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-weight: 300;
+        color: #292d33;
+        border-radius: 5px;
+    
+    }
+    
+
+
+}
+
+
