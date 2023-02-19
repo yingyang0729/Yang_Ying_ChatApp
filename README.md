@@ -1,4 +1,4 @@
-# Live Chat Application with Node, Express, and Vue
+# MMED3014-Chat Application
 
 This is a real-time chat application built with Node.js, Express, Vue, and Socket.IO. It allows users to join chat rooms and communicate with each other in real time.
 
