@@ -1,18 +1,21 @@
 # MMED3014-Chat Application
 
-This is a real-time chat application built with Node.js, Express, Vue, and Socket.IO. It allows users to join chat rooms and communicate with each other in real time.
 
-## Features
-- Join chat rooms with unique room IDs
-- Send and receive messages in real time
-- User registration and login
+TODO: The repo is for MMED3013-Chat App, which is finished by Ying Yang. In the repo, it contains all files. This is a real-time chat application built with Node.js, Express, Vue, and Socket.IO.
 
-## Getting Started
+## Installation
+TODO: In the set up processing, it uses visual code for Node.js, Socket, Express and Vue and find ways on [W3Schools](https://www.w3schools.com/). 
 
-### Prerequisites
-Node.js and NPM (Node Package Manager) installed on your system.
 
-### Installation
+During the processing of creating the CSS animation, Ying Yang checks many information. Those references include:[CSS Animation from Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations), [Learn CSS Animation In 15 Minutes](https://www.youtube.com/watch?v=YszONjKpgg4&t=652s), [How To Create Performant CSS Animations](https://www.youtube.com/watch?v=4PStxeSIL9I). Ying Yang learns from it and changes those code to use.
+## Usage
+TODO: The repo is for MMED3014 Authoring 4.
+
+## Contributing
+The contributor is Ying Yang.
+
+## History
+
 1. Clone the repository to your local machine:
 ```
 git clone https://github.com/your-username/live-chat-app.git
@@ -20,13 +23,13 @@ git clone https://github.com/your-username/live-chat-app.git
 
 2. Install the dependencies:
 ```
-cd live-chat-app
-npm install
+cd to destination folder
+npm install express
 ```
 
 3. Start the server:
 ```
-npm run start
+npm start
 ```
 
 4. Open the app in your browser:
@@ -34,14 +37,10 @@ npm run start
 http://localhost:3000
 ```
 
-### Built With
-- Node.js
-- Express
-- Vue
-- Socket.IO
+## Credits
+TODO: The FIP is about 15% for credits in the course.
 
-### Acknowledgements
-[Socket.IO](https://socket.io/docs/) documentation: https://socket.io/docs/
+## License
+TODO: Fanshawe College-Interative Media Design-Level 4
 
-### License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+
