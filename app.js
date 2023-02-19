@@ -32,7 +32,7 @@ io.on('connection', (socket) => {
   socket.emit('connected', { sID: socket.id, message: 'new connection' });
 
   // listen for incoming messages from Anyone connected to the chat service and then see what the message is
-  socket.on('chat_message', function(msg) { // step one - recieve the message
+  socket.on('talk_message', function(msg) { // step one - recieve the message
     console.log(msg);
 
     //step 2 - show everyone what just sent though (send the message to everyone conected to the service)
@@ -40,9 +40,9 @@ io.on('connection', (socket) => {
   })
 
   // listen for a typing event and broadcast to all
-  socket.on('user_typing', function(user) {
+  socket.on('user_inputing', function(user) {
     console.log(user);
 
-    io.emit('typing', { currentlytyping: user })
+    io.emit('inputing', { currentlyinputing: user })
   })
 });
