@@ -7,7 +7,7 @@ TODO: The repo is for MMED3013-Chat App, which is finished by Ying Yang. In the 
 TODO: In the set up processing, it uses visual code for Node.js, Socket, Express and Vue and find ways on [W3Schools](https://www.w3schools.com/). 
 
 
-During the processing of creating the CSS animation, Ying Yang checks many information. Those references include:[CSS Animation from Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations), [Learn CSS Animation In 15 Minutes](https://www.youtube.com/watch?v=YszONjKpgg4&t=652s), [How To Create Performant CSS Animations](https://www.youtube.com/watch?v=4PStxeSIL9I). Ying Yang learns from it and changes those code to use.
+During the processing of creating the CSS animation, Ying Yang checks many information. Those references include:[Node.js](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations), [Socket](https://www.youtube.com/watch?v=YszONjKpgg4&t=652s), [Vue](https://www.youtube.com/watch?v=4PStxeSIL9I). Ying Yang learns from it and changes those code to use.
 ## Usage
 TODO: The repo is for MMED3014 Authoring 4.
 
