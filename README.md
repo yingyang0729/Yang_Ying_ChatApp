@@ -1,7 +1,7 @@
 # MMED3014-Chat Application
 
 
-TODO: The repo is for MMED3013-Chat App, which is finished by Ying Yang. In the repo, it contains all files. This is a real-time chat application built with Node.js, Express, Vue, and Socket.IO.
+TODO: Built with Node.js, Express, Vue, and Socket.IO, MMED3013-Chat App is a real-time chat application that was completed by Ying Yang. This repository contains all necessary files for the application.
 
 ## Installation
 TODO: In the set up processing, it uses visual code for Node.js, Socket, Express and Vue and find ways on [W3Schools](https://www.w3schools.com/). 
@@ -15,27 +15,10 @@ TODO: The repo is for MMED3014 Authoring 4.
 The contributor is Ying Yang.
 
 ## History
-
-1. Clone the repository to your local machine:
-```
-git clone 
-```
-
-2. Install the dependencies:
-```
-cd to destination folder
-npm install express
-```
-
-3. Start the server:
-```
-npm start
-```
-
-4. Open the app in your browser:
-```
-http://localhost:3000
-```
+1. To get started with the application, clone the repository to your local machine by running git clone in your terminal.
+2. Once the repository is cloned, navigate to the destination folder and install the dependencies by running npm install express.
+3. To start the server, run npm start in your terminal.
+4. Finally, open the application in your browser by navigating to http://localhost:3000.
 
 ## Credits
 TODO: The FIP is about 15% for credits in the course.
